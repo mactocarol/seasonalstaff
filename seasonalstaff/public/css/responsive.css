@@ -1,0 +1,215 @@
+
+@media (min-width: 1200px){
+    .pricing_box {
+        min-height: 625px;
+    }
+}
+@media(max-width:1199px) {
+    #nav-content li a{
+        font-size: 14px;
+    }
+    .chat_form textarea {
+        width: 208px;
+    }
+    .dashboard_accordion_form .panel_content {
+        padding: 15px 10px;
+    }
+    .manage_pro_form .form_group {
+        padding: 20px 5px;
+    }
+    .manage_pro_form .form_group .form_label {
+        font-size: 13px;
+    }
+    .manage_pro_form .form_group .form_icon {
+        margin-right: 7px;
+    }
+    .dashboard_accordion_form .panel_heading {
+        padding: 20px;
+    }
+    .panel_heading .p_icon {
+        font-size: 35px;
+        width: 50px;
+    }
+    .panel_heading .p_text {
+        padding-left: 10px;
+    }
+    .panel_heading .p_text h4 {
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+}
+@media (min-width: 992px) and (max-width:1199px) {
+    .user_chat_list .chat_txt_box {
+        max-width: 250px;
+    }
+    #search_panel .form-control {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    .navbar-nav li {
+        margin-left: 6px;
+    }
+    #nav-content li a.header_btn {
+        background: #2396f3;
+        color: #fff;
+        border-radius: 30px;
+        padding: 9px 12px;
+        border: 2px solid #e0e2e6;
+        font-weight: 500;
+        font-size: 13px;
+        margin: 3px 0;
+    }
+}
+/*Responsive navigation css*/
+@media (min-width: 992px){
+    .nav_buttons{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    .nav_item_btn {
+        display: none !important;
+    }
+    #nav-content .navbar-nav {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    header .navbar {
+        padding: 0px 0 5px;
+    }
+}
+/*Responsive navigation css*/
+@media(max-width:991px) {
+	.top_list li, .staff_list li{
+		width:100%;
+	}
+    .staff_list li:nth-child(2n+2) {
+        padding-left: 0px;
+    }
+    .chat_form textarea {
+        width: 227px;
+    }
+    .chat_form .attach_icon {
+        width: 35px;
+        height: 35px;
+        line-height: 34px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    .chat_send_icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .logo {
+        display: block;
+        max-width: 300px;
+        margin: 5px auto 0;
+    }
+    .about_thumb {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .blog_sidebar {
+        margin-top: 30px;
+    }
+    .top_footer .col-lg-3 {
+        margin: 20px 0;
+    }
+} 
+@media(min-width:768px) {
+    .nav-tabs {
+        display: flex;
+    }
+    .card {
+        border: none;
+    }
+    .card .card-header {
+        display:none;
+    }  
+    .card .collapse{
+        display:block;
+    }
+}
+@media(min-width:768px) {
+	#login_popup .modal-dialog, #signup_popup .modal-dialog {
+		max-width: 650px;
+	}
+}
+@media(max-width:767px){
+    .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+	.width_50, .other_login > div{
+		width:100%;
+	}
+    .nav_buttons {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #search_panel .card-body {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 10px 8px 3px;
+    }
+    .dashboard_accordion_form .panel_content {
+        padding: 15px 15px;
+    }
+    .manage_pro_form .label_wrap {
+        margin-bottom: 7px;
+    }
+    .dashboard_accordion_form .panel_heading {
+        padding: 20px 15px;
+    }
+    .panel_heading .p_icon {
+        font-size: 30px;
+        width: 45px;
+    }
+    .login_form_inner .two_button_group input, 
+    .login_form_inner .two_button_group .blue_button {
+        width: 100%;
+        display: block;
+        margin-bottom: 8px;
+    }
+}
+@media(max-width:575px){
+    #nav-content .navbar-nav {
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding-top: 15px;
+    }
+    .navbar-nav li {
+        margin-left: 0;
+        display: block;
+    }
+    #nav-content li a {
+        font-size: 16px;
+        color: #000;
+        font-weight: 500;
+        padding: 9px 12px;
+    }
+}
+@media(max-width:500px){
+    .form_radio label {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:480px){
+    .recent_post_list .r_post_meta {
+        padding-left: 10px;
+    }
+}
+@media(max-width:360px){
+    .manage_pro_form .date_inputs .form_input {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+}

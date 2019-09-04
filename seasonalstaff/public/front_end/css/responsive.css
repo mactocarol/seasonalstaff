@@ -1,0 +1,314 @@
+
+@media (min-width: 1200px){
+    .pricing_box {
+        min-height: 625px;
+    }
+	.pricing_col {
+		padding: 0 5px;
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+@media(max-width:1199px) {
+    #nav-content li a{
+        font-size: 14px;
+        padding: 13px 5px;
+    }
+    #search_panel .card {
+        padding: 10px 10px;
+    }
+    #search_panel .search_btns {
+        padding: 0 14px;
+        font-size: 13px;
+    }
+}
+@media (min-width: 992px) and (max-width:1199px) {
+    .user_chat_list .chat_txt_box {
+        max-width: 250px;
+    }
+    #search_panel .form-control {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    #nav-content li a.header_btn {
+        background: #2396f3;
+        color: #fff;
+        border-radius: 30px;
+        padding: 9px 12px;
+        border: 2px solid #e0e2e6;
+        font-weight: 500;
+        font-size: 13px;
+        margin: 3px 0;
+    }
+}
+
+/*Responsive navigation css*/
+@media (min-width: 992px){
+    .nav_buttons{
+        display: none;
+    }
+    .deal_filter_btn{
+        display: none;
+    }
+}
+@media (max-width: 991px){
+    .deal_sidebar{
+        display: none;
+    }
+    .deal_detail_single .deal_detail {
+        padding: 20px;
+    }
+}
+@media (max-width: 991px){
+    .nav_item_btn {
+        display: none !important;
+    }
+    #nav-content .navbar-nav {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+    header .navbar {
+        padding: 0px 0 5px;
+    }
+    #search_panel .form-group {
+        margin-bottom: 13px;
+    }
+    .footer_menu {
+        text-align: center;
+    }
+    .footer_menu ul {
+        display: inline-block;
+    }
+    .footer_menu li {
+        margin: 0 5px 10px;
+    }
+    .ftr_social_icon {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .ftr_social_icon li {
+        float: none;
+        display: inline-block;
+    }
+}
+@media (min-width: 768px){
+    
+}
+/*Responsive navigation css*/
+@media(max-width:991px) {
+	.top_list li, .staff_list li{
+		width:100%;
+	}
+    .staff_list li:nth-child(2n+2) {
+        padding-left: 0px;
+    }
+    .chat_form .attach_icon {
+        width: 35px;
+        height: 35px;
+        line-height: 34px;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    .chat_form textarea {
+        width: calc(100% - 95px);
+        width: -webkit-calc(100% - 95px);
+        width: -moz-calc(100% - 95px);
+        margin-left: 45px;
+    }
+    .chat_send_icon {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        top: 0;
+    }
+    .logo {
+        display: block;
+        max-width: 300px;
+        margin: 5px auto 0;
+    }
+    .about_thumb {
+        display: inline-block;
+        margin-top: 30px;
+    }
+    .blog_sidebar {
+        margin-top: 30px;
+    }
+    .top_footer .col-lg-3 {
+        margin: 20px 0;
+    }
+    .sorting-panel {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 19px;
+    }
+    .find_work_list li label, 
+    .find_work_list li .search_dtl {
+        display: block;
+    }
+    .find_staff_list li label, .find_staff_list li .search_dtl{
+        display: block;
+    }
+    .find_work_list li .search_dtl, 
+    .find_staff_list li .search_dtl{
+        padding-left: 0;
+        padding-top: 4px;
+    }
+} 
+@media(min-width:768px) {
+    .nav-tabs {
+        display: flex;
+    }
+    .card {
+        border: none;
+    }
+    .card .card-header {
+        display:none;
+    }  
+    .card .collapse{
+        display:block;
+    }
+}
+@media(min-width:768px) {
+	#login_popup .modal-dialog, #signup_popup .modal-dialog {
+		max-width: 650px;
+	}
+}
+@media(max-width:767px){
+    .tab-content > .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+	.width_50, .other_login > div{
+		width:100%;
+	}
+    .nav_buttons {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #search_panel .card-body {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 10px 8px 3px;
+    }
+    .dashboard_table .dashboard_user .user_thumb {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        float: none;
+    }
+    .dashboard_table .dashboard_user .user_text {
+        float: left;
+        width: 100%;
+        padding: 12px 0px 0 0px;
+    }
+    .login_form_inner .two_button_group input, 
+    .login_form_inner .two_button_group .blue_button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .staff_contact_btn {
+        text-align: left;   
+        display: inline-block;
+        width: 100%;
+    }
+    .staff_contact_btn .contact_button {
+        margin-top: 18px;
+    }
+    .manage_pro_form .form_group .form_icon {
+        margin-right: 10px;
+    }
+    .manage_pro_form .label_wrap {
+        margin-bottom: 5px;
+    }
+    .dashboard_accordion_form .panel_content{
+        padding: 15px;
+    }
+    .deals_box {
+        text-align: center;
+    }
+    #login_popup .modal-dialog, #signup_popup .modal-dialog {
+        max-width: 100%;
+    }
+}
+@media(max-width:600px){
+    .post_work_page .check_box label {
+        width: 100%;
+    }
+}
+@media(max-width:600px){
+    .form_radio label {
+        width: 100%;
+    }
+    .form_radio .s_or_text {
+        width: 100%;
+        font-size: 20px;
+        margin: 14px 0 23px;
+    }
+}
+@media(max-width:575px){
+    #nav-content .navbar-nav {
+        width: 100%;
+        text-align: left;
+        display: block;
+        padding-top: 15px;
+    }
+    .navbar-nav li {
+        margin-left: 0;
+        display: block;
+    }
+    #nav-content li a {
+        font-size: 16px;
+        color: #000;
+        font-weight: 500;
+        padding: 9px 12px;
+    }
+    .address_container ul li.contact_li {
+        width: 100%;
+    }
+}
+@media(max-width:480px){
+    .recent_post_list .r_post_meta {
+        padding-left: 10px;
+    }
+    .staff_service_row {
+        padding-left: 10px;
+    }
+    .st_inner_part {
+        padding-left: 20px;
+    }
+    .dashboard_accordion_form .panel_heading {
+        padding: 15px 20px;
+    }
+    .panel_heading .p_icon {
+        font-size: 30px;
+        line-height: 30px;
+        width: 40px;
+    }
+    .panel_heading .p_text {
+        padding-left: 15px;
+    }
+    .panel_heading .p_text h4 {
+        font-size: 16px;
+    }
+    .not_found_cover .error_text {
+        font-size: 90px;
+        line-height: 60px;
+    }
+
+    .not_found_div p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .price_dv .price_frst {
+        font-size: 13px;
+    }
+    .price_dv .price_scnd {
+        font-size: 20px;
+    }
+}

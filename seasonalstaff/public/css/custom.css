@@ -1,0 +1,59 @@
+
+  
+  .bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #d2d6de;
+    box-shadow: none;
+    display: inline-block;
+    padding: 5px 6px;
+    border-radius: 0;
+    width: 100%;
+    cursor: text;
+}
+
+.label-success {
+    background-color: #8bc34a;
+}
+
+.label-table {
+    display: inline-block;
+    width: 80%;
+    min-width: 8ex;
+    font-size: 1em;
+    max-width: 100px;
+    padding: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.label {
+    border-radius: 3px;
+    font-weight: 600;
+}
+.label-danger {
+    background-color: #f44336;
+}
+
+.modelAction{
+	    margin-top: 120px;
+}
+ /*======== Extraa css start ======*/
+ .top_filter_form .form-group label {
+    display: block;
+}
+ .search_button_group .select_group {
+    float: left;
+    width: calc(100% - 35px);
+    width: -webkit-calc(100% - 35px);
+    width: -moz-calc(100% - 35px);
+}
+.search_button_group button {
+    border-radius: 0;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+    width: 35px;
+    text-align: center;
+}
+ /*======== Extraa css start ======*/
